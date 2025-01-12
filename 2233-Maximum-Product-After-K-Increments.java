@@ -1,7 +1,6 @@
 class Solution {
     public int maximumProduct(int[] nums, int k) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
-        System.out.println(Long.MAX_VALUE);
         for(int ele : nums) pq.add(ele);
         int val;
         while(k-- > 0)
